@@ -13,7 +13,6 @@ Content-Length: 13
 Origin: http://127.0.0.1
 Connection: keep-alive
 Referer: http://127.0.0.1/index.php
-Cookie: session=.eJwlzjsOwjAMANC7eGaoXX-SXgbZcSxYWzoh7k4R65veG-61z-MB22s_5w3uz4QNnCO1q44wx0xZOD2LcXpN61O0MQ5Hb1Y_1chO3AaGrEzFShiaJWMxrtDuacO8N0LTIMXupEp9yMXkwmF8qbgu4utaU-CKnMfc_xuEzxcNCS9C.Z6cWpg.lZDsI5G8bS-uZLspkr5BH3C8pZs; PHPSESSID=b6743umu710ukcu0d3rns2pt2b
 Upgrade-Insecure-Requests: 1
 Sec-Fetch-Dest: document
 Sec-Fetch-Mode: navigate
