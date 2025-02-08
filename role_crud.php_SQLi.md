@@ -1,4 +1,4 @@
-A vulnerability has been found in SourceCodester Best church management software 1.1 and classified as critical. SourceCodester Best church management software 1.1 has a SQL Injection vulnerability in `/admin/app/role_crud.php`. Affected is file `/admin/app/role_crud.php`,The manipulation of the argument useremail leads to SQL inject. Remote attackers can leverage time-based blind SQL injection to extract data from the database.
+A vulnerability has been found in SourceCodester Best church management software 1.1 and classified as critical. SourceCodester Best church management software 1.1 has a SQL Injection vulnerability in `/admin/app/role_crud.php`. Affected is file `/admin/app/role_crud.php`,The manipulation of the argument id leads to SQL inject. Remote attackers can leverage time-based blind SQL injection to extract data from the database.
 
 Request：
 ```
