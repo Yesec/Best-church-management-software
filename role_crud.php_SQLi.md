@@ -54,7 +54,7 @@ if (isset($_POST['update'])) {
 
 Exploit:
 ```
-python D:\Tools\sqlmap\sqlmap.py -r .\1.txt --dbs
+python sqlmap.py -r .\1.txt --dbs
 ```
 ![图片](https://github.com/user-attachments/assets/21d238f1-5481-41da-8d33-b0b544ae5f22)
 
